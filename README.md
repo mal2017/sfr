@@ -15,10 +15,9 @@ can be processed after separately.
 ## quickstart
 
 ```
-nextflow run \
+nextflow run mal2017/sfr \
 	--ref path/to/{bt2_idx_prefix} \
-	--fq 'some/pattern*.fastq.gz' \
-	sfr.nf
+	--fq 'some/pattern*.fastq.gz'
 ```
 
 If running `--fq` with a pattern, should be quoted. For single files a
