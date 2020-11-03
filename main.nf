@@ -5,7 +5,7 @@ nextflow.enable.dsl=1
 version = '1.0'
 
 params.x = 'chrX'
-params.Y = 'chrY'
+params.y = 'chrY'
 params.ref = ''
 params.fq = ''
 params.n_reads_for_dev = 1000
